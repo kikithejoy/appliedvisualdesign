@@ -1,0 +1,12 @@
+<style>
+  div {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: auto:
+    /* margin auto mengakibatkan elemen berada ditengah secara horisontal
+    */
+    
+  }
+</style>
+<div></div>
