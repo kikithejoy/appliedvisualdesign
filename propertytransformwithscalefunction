@@ -1,0 +1,24 @@
+<style>
+  div {
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+    background: linear-gradient(
+      53deg,
+      #ccfffc,
+      #ffcccf
+    );
+  }
+/* penggunaan fungsi scale() dari property tranform dapat menambah interaktifitas 
+terutama bia digunakan pada pseudo class seperti hover
+*/
+div:hover {
+  transform: scale(1.1);
+  }
+  
+  /* akan menambah besar ukuran elemennya apabila mouse user melewati area elemen tersebut
+  */
+  
+</style>
+
+<div></div>
