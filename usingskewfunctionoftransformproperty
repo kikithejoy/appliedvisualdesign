@@ -1,0 +1,22 @@
+<style>
+  div {
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+  }
+  #top {
+    background-color: red;
+  }
+  #bottom {
+    background-color: blue;
+
+  }
+  
+  /* menggunakan fungsi skewX() untuk memiringkan elemen dari garis axisnya 
+  maka semua bagian elemen termasuk huruf akan miring sesuai dengan besaran derajad yang kita isi pada fungsi skewX()
+  */
+  
+</style>
+
+<div id="top"></div>
+<div id="bottom"></div>
