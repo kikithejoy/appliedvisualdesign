@@ -1,0 +1,21 @@
+<style>
+  div {
+    width: 70%;
+    height: 100px;
+    margin: 50px auto;
+  }
+  #top {
+    background-color: red;
+    transform: skewY(-14deg);
+  }
+  #bottom {
+    background-color: blue;
+    transform: skewX(24deg);
+  }
+</style>
+/* fungsi skewY() digunakan untuk memutar elemen pada sumbu Y sesuai derajad yang diisikan
+  -14deg artinya 14 derajad melawan arah jarum jam
+*/
+
+<div id="top"></div>
+<div id="bottom"></div>
