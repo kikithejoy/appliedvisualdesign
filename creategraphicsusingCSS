@@ -1,0 +1,21 @@
+<style>
+  .center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue; --> jadi transparent --> bakcground-color: transparent;
+    border-radius: 0px; --> jadi 50% --> border-radius: 50%;  diatas 50%, kotak menjadi bulat
+    box-shadow: 25px 10px 10px 10px green;
+    /* property box-shadow : offset-x, offset-y, blur-radius, spread-radius, color;
+    dengan menjadikan blur-radius dan spread-radius menjadi 0px, maka bayangan hilang dan tinggal bentuk yang diiginkan
+    yaitu bulan sabit
+    */
+  }
+
+</style>
+<div class="center"></div>
