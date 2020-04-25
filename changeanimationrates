@@ -1,0 +1,8 @@
+merubah rate / kecepatan suatu animasi bisa dilakukan dengan dua cara :
+
+1. dari @keyframes xxxx {
+              /*ubah persentasenya */
+              50% { ..............
+                  }
+                  
+2. dari animation-iteration-count : xxs; ubah waktunya
